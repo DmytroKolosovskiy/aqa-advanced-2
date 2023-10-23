@@ -1,5 +1,6 @@
 const personAge = 41;
-const adultAge = true;
-console.log(personAge>=adultAge);  // is adult
+const adultAge = 18;
+const isAdult = personAge >= adultAge
+console.log(isAdult);  // is adult
 
-console.log(personAge<=adultAge);  // not adult
+console.log(!isAdult);  // is not adult
