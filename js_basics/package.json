@@ -2,11 +2,11 @@
   "name": "js_basics",
   "version": "1.0.0",
   "description": "",
-  "main": "task2.js",
+  "main": "homeWorks/homeWork2/task2.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node task2.js"
+    "start": "node homeWorks/homeWork2/task2.js"
   },
   "author": "Dmytro Kolosovskiy",
   "license": "ISC",
