@@ -1,21 +1,5 @@
-// відповідає умові більше 18 років
-function checkAge(age) {
-  if (age >= 18) {
-    return true;
-  } else {
-    return false;
-  }
+function isAdult(age) {
+  return age >= 18;
 }
-checkAge(25);
-console.log(checkAge(25));
-
-// не відповідає умові більше 18 років
-function checkAge1(age) {
-  if (age >= 18) {
-    return true;
-  } else {
-    return false;
-  }
-}
-checkAge(15);
-console.log(checkAge1(15));
+isAdult(18);
+console.log(isAdult(20));
